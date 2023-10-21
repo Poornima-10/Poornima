@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+//identifiers -> caps,small,dollar,symbol,numbers,underscore
+//definition of a variable
+x=25
+y=5
+z=x+y;
+document.write(z+"<br>");
+document.write("Hello World"+"<br>");
+//operators
+z1=x+y;
+z2=x-y;
+z3=x*y;
+z4=x/y;
+z5=x%y;
+z6=Math.floor(x/y);
+z7=Math.ceil(x/y);
+document.write(z1+"<br>");
+document.write(z2+"<br>");
+document.write(z3+"<br>");
+document.write(z4+"<br>");
+document.write(z5+"<br>");
+document.write(z6+"<br>");
+document.write(z7+"<br>");
+document.write("z"+"<br>");
+document.write("z"+"<br>");
+//increment , decrement operation
+document.write((z++)+"<br>");//z=z+1.......30......31
+document.write((++z)+"<br>");//z=z+1.......32......32
+document.write((--z)+"<br>");//z=z-1.......31......31
+document.write((z--)+"<br>");//z=z-1.......31......30
+//&,  |,^, &&,||
+a=x&y
+b=x|y
+c=x^y
+document.write(a+"<br>");
+document.write(b+"<br>");
+document.write(c+"<br>");
+//Assignment operator
+document.write(x+"<br>");
+x+=2
+document.write(x+"<br>");
+x-=2
+document.write(x+"<br>");
+x*=2
+document.write(x+"<br>");
+x/=2
+document.write(x+"<br>");
+x%=2
+document.write(x+"<br>");
+document.write("z"+"<br>");
+//&&,||
+if(x>25 || y<25){
+document.write("yes"+"<br>");}
+if(x<35 && y<25){
+document.write("yes"+"<br>");}
+if(x>25 || y<25){
+document.write("yes"+"<br>");}
+//var ,let,const
+// var are available throughout the function in which they're declared
+var a1=12;
+if(a1>10){
+var a1=34;
+}
+document.write(a1+"<br>");
+// let are only available inside the block where they're defined
+let c1=12; 
+if(c1>10){
+ let c1=54;
+ document.write(c1+"<br>");
+}
+document.write(c1+"<br>");
+// "constant" variables that cannot be reassigned another value
+const a2=12;
+document.write(a2++);//ERROR
+</script>
+</head>
+
+<body>
+</body>
+</html>
